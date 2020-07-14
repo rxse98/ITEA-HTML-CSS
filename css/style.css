@@ -1,0 +1,2061 @@
+.navbar
+{
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 15%;
+	width: 70%;
+	font-family: 'Montserrat';
+	font-weight: 700;
+}
+
+.collapse.navbar-collapse
+{
+	justify-content: flex-end;
+}
+
+.navbar-light .navbar-brand
+{
+	color: white;
+}
+
+.navbar-toggler:focus
+{
+	outline: none;
+}
+
+.cargradient
+{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: -webkit-linear-gradient(bottom, rgba(241,217,138,90%) 0%, rgba(237,182,134,90%) 50%, rgba(233,130,130,90%) 100%);
+	background: -o-linear-gradient(bottom, rgba(241,217,138,90%) 0%, rgba(237,182,134,90%) 50%, rgba(233,130,130,90%) 100%);
+	background: linear-gradient(to top, rgba(241,217,138,90%) 0%, rgba(237,182,134,90%) 50%, rgba(233,130,130,90%) 100%);
+}
+
+.carousel-caption
+{
+	position: absolute;
+	top: 15%;
+	bottom: 85%;
+	right: 15%;
+	left: 15%;
+	z-index: 1;
+}
+
+.cartitle1
+{
+	font-family: 'Kaushan Script';
+	font-size: 4vw;
+}
+
+.cartitle2
+{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 8vw;
+}
+
+.nav-link
+{
+	position: relative;
+	cursor: pointer;
+	line-height: 2;
+	text-decoration: none;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 1vw;
+	width: 4vw;
+	padding-right: 0;
+	padding-left: 0;
+	text-align: center;
+}
+
+.nav-link:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #fce38a;
+	content: "";
+	transition: width 0.5s ease-out;
+
+}
+
+.nav-item
+{
+	padding-right: 2vw;
+}
+
+.nav-link:hover:after,
+.nav-link:focus:after 
+{
+	/*rxse98*/
+	width: 100%; 
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus
+{
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover 
+{
+	color: #fce38a;
+}
+
+.caricons.fas
+{
+	font-size: 2vw;
+}
+
+.carbutton
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 1vw;
+	color: white;
+	background: transparent;
+	width: 12vw;
+	height: 4vw;
+	margin: auto;
+	margin-top: 3vw;
+	border: 3px solid white;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.carbutton:hover
+{
+	color: white;
+	text-decoration: none;
+}
+
+.carousel-indicators li
+{
+	color: white;
+	text-indent: 0px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 2vw;
+	width: 11vw;
+}
+
+.carousel-indicators p
+{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 1.2vw;
+	margin-top: 1vw;
+}
+
+.row.secgallery
+{
+	padding-top: 5vw;
+	padding-bottom: 7vw;
+}
+
+.card.seccard
+{
+	min-height: 14vw;
+	width: 100%;
+	background-color: #95e1d3;
+	border: 0;
+	border-radius: 0;
+}
+
+
+.seccardimg1
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img6.png);
+	background-size: cover;
+	background-position: center center;
+	transition: right 0.5s, bottom 0.5s;
+}
+
+.seccardimg2
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img7.png);
+	background-size: cover;
+	background-position: center center;
+	transition: right 0.5s, bottom 0.5s;
+}
+
+.seccardimg3
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img8.png);
+	background-size: cover;
+	background-position: center center;
+	transition: right 0.5s, bottom 0.5s;
+}
+
+.seccardimg1:hover, 
+.seccardimg2:hover, 
+.seccardimg3:hover
+{
+	bottom: 0.5vw;
+	right: 0.5vw;
+}
+
+.seccardgrad
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: -webkit-linear-gradient(bottom, rgba(241,217,138,90%) 0%, rgba(237,182,134,90%) 50%, rgba(233,130,130,90%) 100%);
+	background: -o-linear-gradient(bottom, rgba(241,217,138,90%) 0%, rgba(237,182,134,90%) 50%, rgba(233,130,130,90%) 100%);
+	background: linear-gradient(to top, rgba(241,217,138,90%) 0%, rgba(237,182,134,90%) 50%, rgba(233,130,130,90%) 100%);
+	transition: opacity 1s;
+	opacity: 0;
+}
+
+.seccardgrad:hover
+{
+	position: absolute;
+	background: -webkit-linear-gradient(bottom, rgba(241,217,138,90%) 0%, rgba(237,182,134,90%) 50%, rgba(233,130,130,90%) 100%);
+	background: -o-linear-gradient(bottom, rgba(241,217,138,90%) 0%, rgba(237,182,134,90%) 50%, rgba(233,130,130,90%) 100%);
+	background: linear-gradient(to top, rgba(241,217,138,90%) 0%, rgba(237,182,134,90%) 50%, rgba(233,130,130,90%) 100%);
+	opacity: 1;
+}
+
+.seccardicon
+{
+	font-size: 1vw;
+}
+
+.seccardp
+{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 1vw;
+	color: white;
+	margin-bottom: 0;
+}
+
+
+.sectitle1
+{
+	text-align: center;
+	font-family: 'Kaushan Script';
+	font-size: 2vw;
+}
+
+.seccenter1
+{
+	text-align: center;
+}
+
+.seccenter2
+{
+	height: 100%;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column
+}
+
+.seccenter3
+{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.sectitle2
+{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 2.5vw;
+}
+
+.secp1
+{
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 1vw;
+	color: #999999;
+	margin-bottom: 0;
+	padding-top: 1vw;
+}
+
+.bicons.fas
+{
+	position: relative;
+	color: #f38181;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	font-size: 2vw;
+	z-index: 10;
+}
+
+.thirdsection .col-xl-1,
+.thirdsection .col-lg-1,
+.thirdsection .col-md-1,
+.thirdsection .col-xl-2,
+.thirdsection .col-lg-2,
+.thirdsection .col-md-2
+{
+	padding-right: 0;
+	padding-left: 0;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	border-radius: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	min-height: 14vw;
+	background: transparent;
+	color: white;
+	background: #b5eae0;
+}
+
+.thdh1
+{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 5vw;
+
+}
+
+.thdp
+{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 1vw;
+	margin-bottom: 0;
+}
+
+.fourthsection .card
+{
+	border: 0;
+	border-radius: 0;
+}
+
+.fthicons.fas,
+.fthicons.far
+{
+	color: #95e1d3;
+}
+
+.fthh
+{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 1.5vw;
+	color: #484848;
+}
+
+.fthp
+{
+	font-family: 'Roboto';
+	font-weight: 400;
+	padding-left: 2.5vw;
+	font-size: 1.5vw;
+	color: #a8a8a8;
+}
+
+.row.fthrow1
+{
+	border-bottom: 1px solid #e5e5e5;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+}
+
+.row.fthrow2
+{
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+}
+
+.secondsection,
+.fourthsection,
+.thirteenthsection
+{
+	padding-top: 7vw;
+}
+
+.fifthsection
+{
+	position: relative;
+	z-index: 0;
+	background-image: url(../img/img16.png);
+	background-size: cover;
+	background-position: center center;
+	height: 60vw;
+}
+
+.fifthfade
+{
+
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(255,255,255,0.9);
+}
+
+.fifthsection .container
+{
+	position: relative;
+	height: 100%;
+	padding-top: 7vw;
+	z-index: 2;
+}
+
+.fifimg1
+{
+	width: 30vw;
+	z-index: 3;
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	left: 25%;
+}
+
+.fifimg2
+{
+	width: 20vw;
+	z-index: 4;
+	position: absolute;
+	bottom: -7vw;
+	right: 50%;
+	left: 50%;
+}
+
+.sixthsection
+{
+	padding-top: 7vw;
+}
+
+.row.sthrow
+{
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+}
+
+.sixthsection .card-large
+{
+	background-image: url(../img/img19.png);
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+	border-radius: 0;
+	border: 0;
+}
+
+.sixthsection .card
+{
+	border-radius: 0;
+	border: 0;
+}
+
+.card-header#headingOne,
+.card-header#headingTwo,
+.card-header#headingThree
+{
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+}
+
+
+.accordion>.card .card-header
+{
+	margin-bottom: 0;
+}
+
+.card-body
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 15vw;
+	border: 1px solid #e5e5e5;
+	margin-bottom: 10px;
+}
+
+.cardscroll
+{
+	height: 99%;
+	overflow-y: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.sthp
+{
+	font-size: 1.3vw;
+	padding-left: 10px;
+	padding-right: 15px;
+	font-weight: 300;
+	font-family: "Roboto";
+	font-style: italic;
+	color: #afafaf;
+}
+
+.cardscroll::-webkit-scrollbar 
+{
+	width: 5px;
+	background-color: #f5f5f5;
+	border-radius: 3px;
+}
+
+.cardscroll::-webkit-scrollbar-thumb
+{
+	background-color: #95e1d3;
+	border-radius: 3px;
+}
+
+.sixthsection .btn
+{
+	text-decoration: none;
+	color: #7a7a7a;
+	padding: 0;
+	font-weight: 700;
+	font-family: "Montserrat";
+	font-size: 1.5vw;
+}
+
+.sixthsection .sthicons.far
+{
+	color: #95e1d3;
+	vertical-align: middle;
+}
+
+.sixthsection .sthicons.fas
+{
+	color: #95e1d3;
+	vertical-align: middle;
+}
+
+.seventhsection .row
+{
+	background-color: #f8f8f8;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.custom-carousel.carousel-inner
+{
+	padding: 3vw 12vw;
+}
+
+.svnthbimg
+{
+	width: 7vw;
+	height: 7vw;
+	border: 1px solid #95e1d3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+
+.fas.svnthimg1
+{
+	font-size: 3vw;
+	color: #95e1d3;
+}
+
+.svnthquote
+{
+	width: 85%;
+	float: right;
+	font-size: 1.5vw;
+	font-weight: 300;
+	font-family: "Roboto";
+	font-style: italic;
+	color: #999999;
+}
+
+.svnthauthor
+{
+	display: flex;
+	align-items: center;
+}
+
+.svnthimg2
+{
+	width: 4vw;
+	padding-bottom: 1vw;
+	padding-top: 0.5vw;
+}
+
+.svnthh
+{
+	font-family: "Kaushan Script";
+	font-weight: 400;
+	color: #333333;
+	font-size: 1.5vw;
+	padding-left: 1vw;
+	margin-bottom: 0;
+}
+
+.carousel-control-prev-icon#svnthsection,
+.carousel-control-next-icon#svnthsection 
+{
+	width: 2vw;
+	height: 2vw;
+}
+
+.carousel-control-prev-icon#svnthsection 
+{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ccc' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon#svnthsection
+{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ccc' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+}
+
+.eighthsection
+{
+	padding-top: 7vw;
+	padding-bottom: 7vw;
+}
+
+.eighthsection .card
+{
+	border: 0;
+	border-radius: 0;
+}
+
+.eighthsection .row
+{
+	padding-top: 5vw;
+}
+
+.ethbgcard
+{
+	position: relative;
+	height: 30vw;
+	width: 100%;
+	background-color: #95e1d3;
+}
+
+.ethcardimg1
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img24.png);
+	background-size: cover;
+	background-position: left center;
+	transition: right 0.5s, bottom 0.5s;
+}
+
+.ethcardimg2
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img25.png);
+	background-size: cover;
+	background-position: center center;
+	transition: right 0.5s, bottom 0.5s;
+}
+
+.ethcardimg3
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img26.png);
+	background-size: cover;
+	background-position: center center;
+	transition: right 0.5s, bottom 0.5s;
+}
+
+.ethcardimg1:hover,
+.ethcardimg2:hover,
+.ethcardimg3:hover
+{
+	bottom: 0.5vw;
+	right: 0.5vw;
+}
+
+.ethsoclink:hover
+{
+	text-decoration: none;
+}
+
+.ethdivbg
+{
+	margin-right: 0.1vw;
+	width: 3vw;
+	height: 3vw;
+	background-color: #fce38a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #f38181;
+}
+
+.ethdivbg:hover
+{
+	width: 3vw;
+	height: 3vw;
+	background-color: #f38181;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.ethicons.fab
+{
+	font-size: 1vw;
+}
+
+.ethinfo
+{
+	text-align: center;
+	padding-top: 2vw;
+}
+
+.ethname
+{
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 1vw;
+	color: #333333;
+	margin-bottom: 0;
+}
+
+.ethwork
+{
+	color: #b6b6b6;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 1vw;
+}
+
+.ninethsection
+{
+	background-color: #f8f8f8;
+	height: 10vw;
+}
+
+.ninethsection .row
+{
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.nthimg
+{
+	width: 7vw;
+}
+
+.tenthsection
+{
+	padding-top: 7vw;
+}
+
+.tenthsection .row
+{
+	position: relative;
+	padding-top: 5vw;
+	margin-left: 0;
+	margin-right: 0;
+	height: 40vw;
+}
+
+.tthul
+{
+	width: 25%;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.tthbgcard1
+{
+	list-style-type: none;
+	position: relative;
+	height: 50%;
+	width: 100%;
+	background-color: #95e1d3;
+}
+
+.tthbgcard2
+{
+	list-style-type: none;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-color: #95e1d3;
+}
+
+.tthcardimg1
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img33.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+.tthcardimg2
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img35.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+.tthcardimg3
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img34.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+.tthcardimg4
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img37.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+.tthcardimg5
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img36.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+.tthcardimg6
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img38.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+.tthcardimg7
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img39.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+.tthicon
+{
+	font-size: 2vw;
+	color: white;
+}
+
+.tthh
+{
+	font-size: 1vw;
+	margin-bottom: 0.5vw;
+	margin-top: 0.5vw;
+	font-family: 'Montserrat';
+	font-weight: 700;
+}
+
+.tthp
+{
+	font-size: 1vw;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-style: italic;
+}
+
+.elthsection
+{
+	padding-top: 7vw;
+	padding-bottom: 7vw;
+}
+
+.elthsection .row
+{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.elthbimg
+{
+	width: 10vw;
+	height: 10vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+
+.elthimg1
+{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+.twelfthsection
+{
+	position: relative;
+	z-index: 0;
+	background-image: url(../img/img41.png);
+	background-size: cover;
+	background-position: center center;
+	min-height: 60vw;
+}
+
+.twelfthsection .container
+{
+	position: relative;
+	height: 100%;
+	padding-top: 7vw;
+	padding-bottom: 3vw;
+	z-index: 2;
+}
+
+.twelfthsection .row
+{
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+	border: 0;
+}
+
+.twelfthsection .card
+{
+	border: 0;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+.twthcontent
+{
+	display: flex;
+}
+
+.twthbimg
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-right: 2vw;
+}
+
+.twthimg
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.twthbtext
+{
+	width: 70%;
+}
+
+.twthh1
+{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 1vw;
+	color: #333333;
+	margin-bottom: 0.5vw;
+}
+
+.twthh2
+{
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1vw;
+	color: #a9a9a9;
+	margin-bottom: 0;
+}
+
+.twthicon
+{
+	width: 3vw;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.twthp
+{
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 1vw;
+	color: #b3b3b3;
+	margin-bottom: 0;
+}
+
+.thirteenthsection
+{
+	padding-bottom: 7vw;
+}
+
+.thirteenthsection .row
+{
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+}
+
+.thirteenthsection .card
+{
+	height: 12vw;
+	width: 100%;
+	background-color: #95e1d3;
+	border: 0;
+	border-radius: 0;
+}
+
+.ththbgcard1
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img46.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+.ththbgcard2
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img47.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+.ththbgcard3
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/img48.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+.ththdate
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	bottom: 0.5vw;
+	left: -0.5vw;
+	width: 4vw;
+	height: 5vw;
+	background-color: #95e1d3;
+	color: white;
+}
+
+.ththh1
+{
+	font-size: 2vw;
+	margin-bottom: 0;
+	font-family: 'Montserrat';
+	font-weight: 700;
+}
+
+.ththh2
+{
+	font-size: 1vw;
+	font-weight: 400;
+	font-family: 'Roboto';
+	font-style: italic;
+	margin-bottom: 0;
+}
+
+.ththinfo1
+{
+	padding-top: 0.5vw;
+	padding-bottom: 1vw;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.ththlink
+{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 1vw;
+	color: #333333;
+}
+
+.ththlink:hover
+{
+	text-decoration: none;
+}
+
+.ththp1
+{
+	font-size: 1vw;
+	font-weight: 400;
+	font-family: 'Roboto';
+	font-style: italic;
+	margin-bottom: 0;
+	color: #999999;
+}
+
+.ththinfo2
+{
+	display: flex;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+}
+
+.ththp2
+{
+	padding-left: 0.5vw;
+	padding-right: 1vw;
+	font-size: 1vw;
+	font-weight: 400;
+	font-family: 'Roboto';
+	font-style: italic;
+	margin-bottom: 0;
+	color: #999999;
+}
+
+.ththicons.fas
+{
+	display: flex;
+	align-items: center;
+	font-size: 1.5vw;
+	color: #95e1d3;
+}
+
+.ththlink1
+{
+	display: flex;
+}
+
+.ththlink1:hover
+{
+	text-decoration: none;
+}
+
+.fourteenthsection
+{
+	position: relative;
+	z-index: 0;
+	background-image: url(../img/img49.png);
+	background-size: cover;
+	background-position: center center;
+
+}
+
+.frthfade
+{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(255,255,255,0.9);
+}
+
+.frthcollapse
+{
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	cursor: pointer;
+}
+
+.frthh
+{
+	position: relative;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 2vw;
+	color: #f38181;
+	z-index: 2;
+	margin-bottom: 0;
+}
+
+.card-body#frthsection
+{
+	height: 50vw;
+	border: 0;
+	padding: 0;
+}
+
+.frthiframe
+{
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.frthicons.fas
+{
+	color: #f38181;
+	position: relative;
+	z-index: 2;
+	font-size: 2vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+}
+
+
+.fifteenthsection .container
+{
+	padding-bottom: 2vw;
+}
+
+.fifteenthsection .row1.row
+{
+	border-bottom: 1px solid #e5e5e5;
+	padding-top: 5vw;
+	padding-bottom: 2vw;
+}
+
+.fifteenthsection .card
+{
+	border: 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.ffthh
+{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #cccccc;
+	margin-bottom: 2vw;
+	font-size: 2vw;
+}
+
+.ffthp1
+{
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 1vw;
+	color: #999999;
+	margin-bottom: 2vw;
+}
+
+.ffthbp
+{
+	padding-top: 3vw;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+}
+
+.ffthp2
+{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 1vw;
+	color: #333333;
+	margin-bottom: 1vw;
+}
+
+.ffthblock
+{
+	display: flex;
+	padding-top: 1vw;
+	margin-bottom: 2vw;
+}
+
+.fifteenthsection .ffthlink1
+{
+	text-decoration: none;
+	color: #95e1d3;
+	font-size: 1vw;
+	padding: 0vw 0.5vw;
+}
+
+.ffthlink2:hover
+{
+	text-decoration: none;
+}
+
+.ffthp3
+{
+	color: #a0a0a0;
+	font-weight: 300;
+	font-family: "Roboto";
+	font-style: italic;
+	font-size: 1vw;
+	padding: 0vw 0.5vw;
+	margin-bottom: 0;
+}
+
+.ffthform
+{
+	display: flex;
+}
+
+.ffthinput
+{
+	font-weight: 300;
+	font-family: "Roboto";
+	width: 15vw;
+	height: 2vw;
+	font-size: 1vw;
+	color: #d9d9d9;
+	padding: 0.3vw 0.5vw;
+	border: 1px solid #e7e7e7;
+}
+
+.ffthinput::placeholder
+{
+	font-weight: 300;
+	font-family: "Roboto";
+	color: #d9d9d9;
+	font-style: italic;
+}
+
+.ffthinput:focus
+{
+	outline: none;
+}
+
+.ffthbtn
+{
+	text-align: center;
+	width: 7vw;
+	height: 2vw;
+	background-color: #95e1d3;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ffthp4
+{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 0.8vw;
+	color: white;
+	margin-bottom: 0;
+}
+
+.ffthh1
+{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #333333;
+	margin-bottom: 2vw;
+	font-size: 1vw;
+}
+
+.fifteenthsection .row2.row
+{
+	width: 100%;
+	height: 5vw;
+}
+
+.ffthcontent
+{
+	display: flex;
+}
+
+.ffthbimg
+{
+	width: 7vw;
+	height: 4.5vw;
+	margin-right: 2vw;
+}
+
+.ffthimg
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	vertical-align: top;
+}
+
+.ffthbtext
+{
+	width: 100%;
+}
+
+.ffthh2
+{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 1vw;
+	color: #333333;
+	margin-bottom: 0.5vw;
+}
+
+.ffthh3
+{
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1vw;
+	color: #a9a9a9;
+	margin-bottom: 0;
+}
+
+.fifteenthsection .card1.card
+{
+	padding-bottom: 2vw;
+	border: 0;
+}
+
+.fifteenthsection .card2.card
+{
+
+	border: 0;
+}
+
+.ffthlink4
+{
+	padding: 0.1vw;
+	line-height: 1;
+}
+
+.ffthimg1
+{
+	width: 5vw;
+	height: 5vw;
+	object-fit: cover;
+	vertical-align: top;
+	line-height: 1;
+}
+
+.fifteenthsection .row3.row
+{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.ffthlink3
+{
+	font-size: 1vw;
+	padding-top: 1vw;
+	color: #777777;
+	font-weight: 300;
+	font-family: "Roboto";
+	font-style: italic;
+}
+
+.ffthlink3:hover
+{
+	text-decoration: none;
+	color: #777777;
+}
+
+.footer
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1vw auto;
+}
+
+.footertext
+{
+	margin-bottom: 0;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 1vw;
+	color: #333333;
+}
+
+.footerlink
+{
+	color: #f38181;
+}
+
+.footerlink:hover
+{
+	text-decoration: none;
+	color: #f38181;
+}
+
+@media (max-width: 991px)
+{
+	.nav-link
+	{
+		font-size: 14px;
+		padding: 0;
+		width: auto;
+		background: grey;
+		z-index: 2;
+		position: relative;
+		padding-right: 0;
+		margin-bottom: 1px;
+	}
+
+	.twthbimg
+	{
+		width: 100px;
+		height: 95px;
+		border-radius: 50%;
+		margin-right: 2vw;
+	}	
+}
+
+
+@media (max-width: 767px)
+{
+	.carbutton
+	{
+		font-size: 10px;
+		margin-top: 0;
+		width: 100px;
+		height: 30px;
+	}
+
+	.card.seccard
+	{
+		margin-bottom: 3vw;
+	}
+
+	.seccardp,
+	.seccardicon
+	{
+		font-size: 14px;
+	}
+
+	.thirdsection .col-xl-1,
+	.thirdsection .col-lg-1,
+	.thirdsection .col-md-1,
+	.thirdsection .col-xl-2,
+	.thirdsection .col-lg-2,
+	.thirdsection .col-md-2
+	{
+		border: 0;
+		margin-bottom: 1px;
+	}
+
+	.thdp
+	{
+		font-size: 14px;
+	}
+
+	.fourthsection .card
+	{
+		text-align: center;
+	}
+
+	.row.fthrow1
+	{
+		border: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.row.fthrow2
+	{
+		padding-top: 0;
+		padding-bottom: 5vw;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.fourthsection .col-xl-4.col-lg-4.col-md-4
+	{
+		padding-top: 5vw;
+		padding-bottom: 2.5vw;
+		border-bottom: 1px solid #e5e5e5;
+	}
+
+	.fourthsection .row.fthrow2 :last-child
+	{
+		border: 0;
+	}
+
+	.fifthsection
+	{
+		height: 65vw;
+	}
+
+	.sectitle1
+	{
+		font-size: 20px;
+	}
+
+	.sectitle2
+	{
+		font-size: 24px;
+	}
+
+	.secp1
+	{
+		font-size: 14px;
+	}
+
+	.fthh
+	{
+		font-size: 14px;
+	}
+
+	.fthp
+	{
+		font-size: 14px;
+		padding-left: 0;
+	}
+
+	.sixthsection .btn
+	{
+    	font-size: 14px;
+	}
+
+	.sixthsection .card-body
+	{
+		height: 200px;
+	}
+
+	.sthp
+	{
+		font-size: 14px;
+	}
+
+	.svnthh
+	{
+		font-size: 14px;
+	}
+
+	.svnthtext
+	{
+		font-size: 14px;	
+	}
+
+	.ethname
+	{
+		font-size: 15px;
+	}
+
+	.ethwork
+	{
+		font-size: 14px;
+	}
+
+	.ethdivbg
+	{
+		width: 50px;
+    	height: 50px;
+	}
+
+	.ethicons.fab
+	{
+		font-size: 14px;
+	}
+
+	.ninethsection
+	{
+		height: 15vw;
+	}
+
+	.nthimg
+	{
+		width: 10vw;
+	}
+
+	.tthicon,
+	.tthh,
+	.tthp
+	{
+		font-size: 14px;
+	}
+
+	.twelfthsection .container
+	{
+		padding-bottom: 4vw;
+	}
+
+	.twthcontent
+	{
+		padding-bottom: 2.5vw;
+		padding-top: 2.5vw;
+		justify-content: center;
+	}
+
+	.twelfthsection .row
+	{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.twthh1,
+	.twthh2,
+	.twthp
+	{
+		font-size: 14px;
+	}
+
+	.twthbimg 
+	{
+    	width: 100px;
+    	height: 100px;
+	}
+
+	.thirteenthsection .col-xl-4.col-lg-4.col-md-4
+	{
+		padding-bottom: 2vw;
+	}
+
+	.ththlink
+	{
+		font-size: 14px;
+	}
+
+	.ththp1
+	{
+		font-size: 14px;
+	}
+
+	.ththicons.fas
+	{
+		font-size: 14px;
+	}
+
+	.ththp2
+	{
+		font-size: 14px;
+	}
+
+	.ththdate
+	{
+		width: 40px;
+		height: 50px;
+	}
+
+	.ththinfo1
+	{
+		text-align: center;
+	}
+
+	.ththh1
+	{
+		font-size: 20px;
+	}
+
+	.ththh2
+	{
+		font-size: 14px;
+	}
+
+	.frthicons.fas.fa-map-marker-alt,
+	.frthh,
+	.bicons.fas.fa-satellite-dish
+	{
+		font-size: 20px;
+	}
+
+	.fifteenthsection .card
+	{
+		text-align: center;
+		padding-bottom: 1.5vw;
+	}
+
+	.ffthh
+	{
+		font-size: 30px;
+	}
+
+	.ffthp1,
+	.ffthp2
+	{
+		font-size: 14px;
+	}
+
+	.ffthblock
+	{
+		justify-content: center;
+		padding-top: 2.5vw;
+	}
+
+	.ffthp3,
+	.fifteenthsection .ffthlink1
+	{
+		font-size: 14px;
+	}
+
+	.ffthform
+	{
+		justify-content: center;
+	}
+
+	.ffthinput
+	{
+		width: 250px;
+		height: 30px;
+		font-size: 14px;
+	}
+
+	.ffthbtn
+	{
+		width: 90px;
+		height: 30px;
+	}
+
+	.ffthp4
+	{
+		font-size: 10px;
+	}
+
+	.fifteenthsection .row1.row
+	{
+		padding-top: 0;
+		border: 0;
+	}
+
+	.fifteenthsection .col-xl-4.col-lg-4.col-md-4
+	{
+		padding-top: 5vw;
+		padding-bottom: 5vw;
+		padding-right: 0;
+		padding-left: 0;
+		border-bottom: 1px solid #e5e5e5;
+	}
+
+	.ffthh1
+	{
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.ffthh2,
+	.ffthh3
+	{
+		font-size: 14px;
+	}
+
+	.ffthcontent
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.ffthbimg
+	{
+		margin-right: 0;
+		margin-bottom: 1vw;
+	}
+
+	.fifteenthsection .row1.row
+	{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.fifteenthsection .row3.row
+	{
+		justify-content: center;
+	}
+
+	.ffthimg1
+	{
+		width: 100px;
+    	height: 80px;
+	}
+
+	.ffthlink3
+	{
+		font-size: 14px;
+		padding-top: 10px;
+	}
+
+	.footertext
+	{
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 575px)
+{
+	.bicons.fas
+	{
+		display: none;
+	}
+
+	.secondsection .col-xl-4.col-lg-4.col-md-4,
+	.eighthsection .col-xl-4.col-lg-4.col-md-4,
+	.thirteenthsection .col-xl-4.col-lg-4.col-md-4,
+	.fifteenthsection .col-xl-4.col-lg-4.col-md-4
+	{
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.thdh1
+	{
+		margin-bottom: 0;
+	}
+
+	.svnthbimg
+	{
+		width: 30px;
+		height: 30px;
+
+	}
+
+	.fas.svnthimg1
+	{
+		font-size: 14px;
+	}
+
+	.ninethsection
+	{
+		height: 100%;
+		background: transparent;
+	}
+
+	.ninethsection .col-xl-2.col-lg-2.col-md-2.col-sm-2.col-xs-2
+	{
+		background: #f8f8f8;
+		margin-bottom: 5px;
+		height: 100px;
+		display: flex;
+    	align-items: center;
+    	justify-content: center;
+	}
+
+	.nthimg
+	{
+		width: 80px;
+	}
+
+	.tenthsection .row
+	{
+		height: 60vw;
+	}
+
+	.tthicon,
+	.tthh,
+	.tthp
+	{
+		font-size: 7px;
+	}
+
+	.twthh2
+	{
+		padding-bottom: 15px;
+	}
+
+	.twthbimg
+	{
+    	width: 80px;
+    	height: 80px;
+    	margin-right: 4vw;
+	}
+
+	.ththdate
+	{
+		bottom: -4vw;
+    	left: 1vw;
+    	width: 35px;
+    	height: 45px;
+	}
+
+	.ththinfo1,
+	.ththinfo2
+	{
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+
+	.fifteenthsection .card
+	{
+		border: 0;
+		padding-bottom: 0;
+	}
+
+	.ffthblock
+	{
+		padding-top: 0;
+	}
+
+	.fifteenthsection .card1.card
+	{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.ffthimg1
+	{
+		width: 90px;
+		height: 80px;
+	}
+
+	.ththlink1,
+	.fifteenthsection .ffthlink1
+	{
+		padding: 0vw 5px;
+	}
+
+	.seccardimg1:hover,
+	.seccardimg2:hover,
+	.seccardimg3:hover
+	{
+	    bottom: 0;
+	    right: 0;
+	}
+
+	.ethcardimg1:hover,
+	.ethcardimg2:hover,
+	.ethcardimg3:hover
+	{
+	    bottom: 0;
+	    right: 0;
+	}
+}
